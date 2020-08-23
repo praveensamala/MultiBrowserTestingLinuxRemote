@@ -1,0 +1,6 @@
+.ignore
+.classpath
+.project
+/target/
+/test-output/
+

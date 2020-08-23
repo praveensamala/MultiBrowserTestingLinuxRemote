@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="samplesuit">
+	<test name="sampletests" parallel="methods" thread-count="4">
+		<classes>
+			<class name="com.training.browsers.LinuxTest">
+			</class>
+		</classes>
+	</test>
+</suite>
