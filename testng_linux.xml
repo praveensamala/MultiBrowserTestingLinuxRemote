@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="samplesuit">
-	<test name="sampletests">
+	<test name="sampletests" parallel="methods" thread-count="2">
 		<classes>
 			<class name="com.training.browsers.LinuxRemoteTest">
 			</class>

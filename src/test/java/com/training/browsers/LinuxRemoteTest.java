@@ -29,7 +29,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class LinuxRemoteTest {
-	String HubUrl = "http://192.168.154.135:4444/wd/hub";
+	String HubUrl = "http://localhost:4444/wd/hub";
 	
 	DesiredCapabilities chromecapabilities = DesiredCapabilities.chrome();
 	ChromeOptions chromeoptions = new ChromeOptions();
