@@ -47,10 +47,6 @@ public class LinuxRemoteTest {
 		
 		FirefoxProfile profile = new FirefoxProfile();
 	    profile.setPreference("permissions.default.desktop-notification", 1);
-	    
-	    DesiredCapabilities capabilities=DesiredCapabilities.firefox();
-	    capabilities.setCapability("marionatte", false);
-	    capabilities.setCapability(FirefoxDriver.PROFILE, profile);
 		
 	    firefoxcapabilities.setCapability("marionatte", false);
 	    firefoxcapabilities.setCapability(FirefoxDriver.PROFILE, profile);
@@ -62,7 +58,7 @@ public class LinuxRemoteTest {
 	    firefoxcapabilities.setPlatform(Platform.LINUX);*/
 	}
 	
-	//@Test (enabled = true)
+	@Test (enabled = true)
 	public void loginTest1() throws MalformedURLException {
 		WebDriver driver = new RemoteWebDriver(new URL(HubUrl), chromeoptions);
 		facebookLoginTest(driver);
