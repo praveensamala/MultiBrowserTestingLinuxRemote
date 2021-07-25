@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="samplesuit">
-	<test name="sampletests" parallel="methods" thread-count="4">
+	<test name="sampletests">
 		<classes>
-			<class name="com.training.browsers.LinuxTest">
+			<class name="com.training.browsers.LinuxRemoteTest">
 			</class>
 		</classes>
 	</test>
